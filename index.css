@@ -1,0 +1,49 @@
+body {
+    font-family: monospace, roboto, sans-serif;
+    width: 800px;
+    margin: 0 auto;
+    color: rgb(30, 40, 56);
+}
+
+#header {
+    border: 2px solid rgb(0, 213, 157);
+    height: 100px;
+}
+
+#header img {
+    height: 100px;
+    width: auto;
+    margin-left: 18px;
+}
+
+#content {
+    border: 2px solid rgb(0, 213, 157);
+    padding: 18px
+}
+
+#content p {
+    margin: 0 0 18px 0;
+    line-height: 1.2;
+}
+
+#content a {
+    margin: 0;
+    display: block;
+    background: rgb(0, 213, 157);
+    color: rgb(30, 40, 56);
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+#content a:hover {
+    background: rgb(30, 40, 56);
+    color: rgb(0, 213, 157);
+}
+
+
+#footer {
+    border: 2px solid rgb(0, 213, 157);
+    text-align: center;
+}
